@@ -46,6 +46,12 @@ let numbArrayPrint = parseInt(prompt("inserisci il numero di elemneti dell'array
 
 // 3 - stampo in console il numero di elementi richiesti dall'utente
 
-let lastFive = array.slice(array, numbArrayPrint);
+if( numbArrayPrint <= array.length){
+    let lastFive = array.slice(array, numbArrayPrint);
+    console.log(lastFive)
 
-console.log(lastFive);
+}
+else{
+    console.log("il numero degli elemnti da stampare deve essere minore degli elmenti inseriti nell'arrey");
+
+}
