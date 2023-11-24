@@ -7,6 +7,15 @@ console.log(frigo);
 // 2 - aggiungo la pesca all'arrey del frigo
 
 let frutta = "pesca";
-
 console.log(frutta);
+
+frigo.push(frutta);
+console.log(frigo);
+
+
+// creo variabile di controllo
+
+let flag = false;
+let cocomero = frigo[6];
+
 
